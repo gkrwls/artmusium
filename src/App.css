@@ -1,0 +1,106 @@
+body {
+	background-color: #dedede;
+}
+
+@media screen and (min-width: 1200px) {
+	#wrap {
+		width: 1200px;
+		margin: 0 auto;
+	}
+}
+#wrap header {
+	background-color: orangered;
+}
+#wrap header > h1 > a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+}
+#wrap main {
+	padding: 10px;
+}
+@media screen and (min-width: 992px) {
+	#wrap main {
+		display: flex;
+		flex-flow: row nowrap;
+	}
+}
+@media screen and (min-width: 640px) {
+	#wrap main > section {
+		display: flex;
+		flex-flow: row nowrap;
+	}
+}
+@media screen and (min-width: 992px) {
+	#wrap main > section {
+		flex: 1 1 0;
+	}
+}
+#wrap main > section > nav.lnb {
+	margin-bottom: 20px;
+}
+@media screen and (min-width: 640px) {
+	#wrap main > section > nav.lnb {
+		width: 25%;
+		margin-bottom: 0;
+	}
+}
+#wrap main > section > nav.lnb > ul > li {
+	margin-bottom: 8px;
+	background-color: #9acd32;
+}
+#wrap main > section > nav.lnb > ul > li:last-child {
+	margin-bottom: 0;
+}
+#wrap main > section > nav.lnb > ul > li:hover {
+	background-color: #7ba428;
+}
+#wrap main > section > nav.lnb > ul > li:hover > a {
+	color: #fff;
+}
+#wrap main > section > nav.lnb > ul > li > a {
+	display: block;
+	padding: 8px;
+}
+#wrap main > section > article.content {
+	padding: 8px;
+}
+@media screen and (min-width: 640px) {
+	#wrap main > section > article.content {
+		margin-left: 32px;
+	}
+}
+#wrap main > section > article.content > h2 {
+	margin-bottom: 8px;
+	text-transform: uppercase;
+}
+#wrap main > section > article.content > ol > li > a {
+	display: block;
+	line-height: 1.8;
+	-webkit-text-decoration: underline #666;
+	text-decoration: underline #666;
+}
+#wrap main > aside {
+	padding: 16px;
+	background-color: #9acd32;
+}
+@media screen and (min-width: 992px) {
+	#wrap main > aside {
+		width: 30%;
+	}
+}
+#wrap main > aside > p {
+	margin-bottom: 10px;
+}
+#wrap main > aside > p:last-child {
+	margin-bottom: 0;
+}
+#wrap main > aside > p > a:hover {
+	-webkit-text-decoration: underline #666;
+	text-decoration: underline #666;
+}
+#wrap footer {
+	padding: 10px;
+	text-align: center;
+	background-color: #ccc;
+} /*# sourceMappingURL=1070.css.map */
